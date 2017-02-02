@@ -1,0 +1,44 @@
+1、给表加注释 
+COMMENT ON TABLE TABLENAME IS '用户表'; 
+
+2、查看表的COMMENT 
+SELECT * FROM USER_TAB_COMMENTS WHERE TABLE_NAME='TABLENAME'; 
+
+3、给字段加注释 
+COMMENT ON COLUMN TABLENAME.COLNAME IS 'OOXX'; 
+
+4、查看字段的COMMENT 
+SELECT * FROM USER_COL_COMMENTS WHERE TABLE_NAME='TABLENAME'; 
+
+注意：数据中有空值，Oracle机制会自动将其规划到maxvalue的分区中。
+
+分区其他操作
+下面讲讲分区的维护操作：
+(1)分裂分区，以第一个范围分区为例：
+Sql代码  收藏代码
+alter table graderecord split partition jige at(75)   
+      into(partition keyi,partition lianghao);   
+ 把分区及格分裂为两个分区：可以和良好。
+ 
+(2)合并分区，以第一个范围分区为例：
+Sql代码  收藏代码
+alter table graderecord merge partitions keyi,lianghao   
+into partition jige;  
+
+把可以和良好两个分区合并为及格。 
+(3)添加分区，由于在范围分区上添加分区要求添加的分区范围大于原有分区最大值，但原有分区最大值已经为maxvalue，故本处以第二个散列分区为例：
+Sql代码  收藏代码
+alter table graderecord add partition p4;  
+ 给散列分区例子又增加了一个分区p4 。
+ 
+(4)删除分区，语法：
+Sql代码  收藏代码
+alter table table_name drop partition partition_name;  
+ 
+(5)截断分区，清空分区中的数据
+Sql代码  收藏代码
+alter table table_name truncate partition partition_name;  
+ 
+说明：对待分区的操作同样可以对待子分区，效果一样。删除一个分区会同时删除其下的子分区。合并多个分区也会把他们的子分区自动合并。分裂分区时注意分裂点。
+另外不带模板子分区和带有模板子分区的分区表操作的区别：带有子分区模板的分区表在添加分区时候自动添加子分区，不带模板子分区的分区表没有这个功能；带有子分区模板的
+分区表在更改分区时只需更改分区，不带模板子分区的分区表在更改分区时一定注意连同子分区一起更改。

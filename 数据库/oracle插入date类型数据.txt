@@ -1,0 +1,2 @@
+insert into ecouser.ECO_ORDER_EVENT_TOXW (orderid,eventtype,eventdate,eventmsg,seqid,orderchannel,state)
+values('314828270079841693','1',to_date('2016-12-28 15:11','yyyy-mm-dd hh24:mi:ss'),'test','1','6','0');
