@@ -1,0 +1,1 @@
+i note down how i learn git by myself and the skills of using git.
