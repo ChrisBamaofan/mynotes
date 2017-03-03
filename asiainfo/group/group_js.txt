@@ -1,0 +1,29 @@
+#关于点击显示，再次点击隐藏
+<div class="detail_test_0">
+	<div class="detail_test_1>
+		点击试试看
+	</div>
+	<div class="detail_test_2>
+		<a class="1" id="1">显示为1</a>
+		<a class="2" id="2">显示为2</a>
+		<a class="3" id="3">显示为3</a>
+	</div>
+</div>
+
+#js代码
+$(".detail_test_0").click(function(){
+	var self = $(this);
+	if(self.hasClass('on')){
+		self.removeClass('on');
+		$('.detail_test_2').stop(true,true).slideUp();
+	}else{
+		self.addClass('on');
+		$('.detail_test_2').stop(true,true).slideDown();
+	}
+})
+
+#成员维护首页进去后自动进行业务信息展示
+先展示一个div，内含有class，通过第一个事件的afterFunction()来调一个多个条目的出发事件， 比如 $("#productList a:first").click();
+
+#即使前端校验数据正确性，校验位数和前几位后几位数字
+#div+span,such as

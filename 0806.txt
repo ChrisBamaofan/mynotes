@@ -1,0 +1,5 @@
+1.java代码优化与架构优化之解决系统之间调用卡顿数据传输慢的问题。 争取分析出其中的问题以及为什么这些问题会使得系统整体的慢，慢的问题是由于什么原因？
+https://zhuanlan.zhihu.com/p/23390311
+2.关于怎么将音乐播放器的设置继承一下各种前端的播放器，
+https://www.zhihu.com/question/29291919
+https://www.zhihu.com/question/22869794
