@@ -46,14 +46,11 @@ http://geek.csdn.net/news/detail/52070(数据库信息)
 *关于使用CAS写出单点登录 http://www.coin163.com/java/cas/cas.html
 http://www.hollischuang.com/archives/666
 http://www.hollischuang.com/archives/1275  
-http://bbs.saraba1st.com/2b/thread-1323051-1-1.html?from=timeline&isappinstalled=0 fenng-----
 http://www.hollischuang.com/archives/1163 	成神之路
 =================================================================================================================================
 http://www.ibm.com/developerworks/cn/java/j-lo-restmvc/index.html（restful风格的mvc框架）
 
 http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=403861308&idx=1&sn=f67c70f8c7a5bb61ef59f032694e708a&scene=23&srcid=0301AhEWcMk54jONcHvGVwIL#rd  框架详解
-
-http://v.qq.com/cover/v/vxc0540ccq2m2fo.html(医生李天天)
 
 http://www.cnblogs.com/KnightsWarrior/p/FromKnockoutToAngular.html 圣殿骑士博客，框架说明
 
@@ -61,11 +58,7 @@ http://www.ituring.com.cn/article/209596    图灵推荐书单（如何成为一个优秀的开发
 
 http://ued.taobao.org/blog/2014/04/xtpl/    淘宝ued官方博客
 
--------------------------------------------spring框架认识，在完全读懂了框架后---------验证git可以提交数据——————认识框架结构——
-
-http://my.oschina.net/lujianing/blog/194069#OSC_h2_2(idea连接git)*
-http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000（git教程）*
-http://www.cnblogs.com/super-d2/p/3341864.html(git init())*
+-------------------------------------------spring框架认识，在完全读懂了框架后---------验证g
 http://my.oschina.net/u/1157906/blog/193167(log4j详解)^
 
 http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=402340325&idx=1&sn=5b7bf6025b1a83a0e529e630fc95ae28&scene=23&srcid=0114EyWfDiSh4H6Zgb4g0Fbc#rd(微信从0-1架构演变)

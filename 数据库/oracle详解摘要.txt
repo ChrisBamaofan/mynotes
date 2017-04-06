@@ -1,0 +1,17 @@
+||可以合并列
+select name||age as 岁数的谁 from eco_consumer_info_individual;
+
+distinct 关键字
+select distinct（age) from eco_consumer_info_individual;
+
+过滤功能
+<>
+is null
+_a%  => Aaend    banana   cat   carrot  模糊查询
+
+当行函数
+concat('hello','world') == helloworld
+substr('helloworld',1,5) == hello
+length('helloworld')== 10
+instr('helloworld','w') == 6 位置
+LPAD

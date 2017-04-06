@@ -27,3 +27,5 @@ $(".detail_test_0").click(function(){
 
 #即使前端校验数据正确性，校验位数和前几位后几位数字
 #div+span,such as
+
+#html中嵌套html，有公共的共享页面index.html 通过js控制不同的父页面来显示同一个子页面中的不同div（默认隐藏，通过事件，显示id层）

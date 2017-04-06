@@ -1,0 +1,5 @@
+前沿
+分辨出bean context core 三大组件之间的关系，理解并能写出来，最好能说出来给别人听，运用构建一个项目。
+1.IoC and bean 
+bean就是将object封装起来，而context就是要发现每个bean之间的关系，然后维持好这种关系，所以context就是这种bean关系的集合，这个关系的集合也叫IoC容器，
+
